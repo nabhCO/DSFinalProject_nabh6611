@@ -76,7 +76,7 @@ class Pixel_Node:
         self.color = color
         self.subscript = subscript
 
-##### HELPER FUNCTIONS FOR SEGMENTATION ####
+##### HELPER FUNCTIONS FOR SEGMENTATION #####
 
 ''' preprocesses input image based on steps in paper by Felzenszwalb and Huttenlocher- resizing if necessary,
     Gaussian blur applied with sigma 0.8 to remove artifacts '''
