@@ -6,6 +6,7 @@ I used a virtual environment in order to access the OpenCV and Numpy libraries o
 
 https://drive.google.com/file/d/1_hB837R2jJHMxjJoM5nvGeN0Vn6MnPZL/view?usp=drive_link
 
+
 If you would like to run the code yourself, the instructions for creating a local virtual environment in VSCode are below:
 
 1. Create a new terminal.
