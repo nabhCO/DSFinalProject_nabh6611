@@ -131,7 +131,8 @@ def create_nodearray(height, width, pixel_nodes):
     return node_array
 
 
-''' creates list of edges connected to each node- each node will have eight edges containing start, end, and weight based
+''' NOTE: the nested for loop avoids boundary pixels, as they will not have eight neighbours but will still be connected to other nodes.
+    function creates list of edges connected to each node- each node will have eight edges containing start, end, and weight based
     on color similarity (for up, down, left, right, and four diagonal pixels) '''
 def create_edgelist(node_array, height, width):
 
