@@ -3,7 +3,7 @@
 ### Walkthrough
 
 I used a virtual environment in order to access the OpenCV and Numpy libraries on VSCode. Running this might be tedious, so I have uploaded a video of my code walkthrough on Google Drive below (visible to anyone with this link):
-[Demo Link]https://drive.google.com/file/d/1_hB837R2jJHMxjJoM5nvGeN0Vn6MnPZL/view?usp=drive_link
+https://drive.google.com/file/d/1_hB837R2jJHMxjJoM5nvGeN0Vn6MnPZL/view?usp=drive_link
 
 If you would like to run the code yourself, the instructions for creating a local virtual environment in VSCode are below:
 
