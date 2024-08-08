@@ -71,7 +71,7 @@ class Edge:
 
 class Pixel_Node:
 
-    def __init__(self, color, subscript, boundary):
+    def __init__(self, color, subscript):
         
         self.color = color
         self.subscript = subscript
