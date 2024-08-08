@@ -75,7 +75,6 @@ class Pixel_Node:
         
         self.color = color
         self.subscript = subscript
-        self.boundary = boundary
 
 ##### HELPER FUNCTIONS FOR SEGMENTATION ####
 
@@ -127,7 +126,7 @@ def create_nodearray(height, width, pixel_nodes):
 
             color = pixel_nodes[i, j]
             subscript  = subscript_func(i, j, width)
-            node_array[i][j] = Pixel_Node(color, subscript, False)
+            node_array[i][j] = Pixel_Node(color, subscript)
 
     return node_array
 
