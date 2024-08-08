@@ -106,12 +106,12 @@ def subscript_func(i, j, width):
 
     return ((i * width) + j)
 
-''' gets row location of pixel using its subscript '''
+''' gets row location of pixel using subscript '''
 def get_i(node_sub, width):
 
     return node_sub // width
     
-''' gets column location of pixel using its subscript '''
+''' gets column location of pixel using subscript '''
 def get_j(node_sub, width):
 
     return  node_sub % width
