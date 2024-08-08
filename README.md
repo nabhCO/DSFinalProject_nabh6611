@@ -3,6 +3,7 @@
 ### Walkthrough
 
 I used a virtual environment in order to access the OpenCV and Numpy libraries on VSCode. Running this might be tedious, so I have uploaded a video of my code walkthrough on Google Drive below (visible to anyone with this link):
+[Demo Link]https://drive.google.com/file/d/1_hB837R2jJHMxjJoM5nvGeN0Vn6MnPZL/view?usp=drive_link
 
 If you would like to run the code yourself, the instructions for creating a local virtual environment in VSCode are below:
 
@@ -16,6 +17,8 @@ You should now see the name of the virtual environment preceding the path in the
 
 6. Now install OpenCV with the command `pip install opencv-python`. This will also install Numpy.
 7. To run your the code, enter `python filename.py` in the command line. Make sure you are using the command line and not the powershell whenever you run the code.
+
+The sample images for running the code are "apple.jpg" and "objects.png", but you can use others too. Examples of results are in the "result examples" folder.
 
 ### Project Description
 
